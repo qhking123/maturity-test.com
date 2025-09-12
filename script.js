@@ -287,37 +287,43 @@ document.addEventListener('DOMContentLoaded', function() {
                     <br><br>
                     <div class="all-quiz-results">
                         <h3>All Quiz Results</h3>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Maturity Level</th>
-                                    <th>Percentage</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>You’re really mature.</td>
-                                    <td>73%</td>
-                                </tr>
-                                <tr>
-                                    <td>You’re pretty mature.</td>
-                                    <td>17%</td>
-                                </tr>
-                                <tr>
-                                    <td>You’re on the path to becoming mature.</td>
-                                    <td>6%</td>
-                                </tr>
-                                <tr>
-                                    <td>You’ve got some mature habits! But there’s still room to grow…</td>
-                                    <td>5%</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <ul class="results-list">
+                            <li>
+                                <span class="result-label">You are really mature.</span>
+                                <div class="progress-container">
+                                    <div class="progress-bar" style="width: 8%;">8%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="result-label">You are a mature person.</span>
+                                <div class="progress-container">
+                                    <div class="progress-bar" style="width: 13%;">13%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="result-label">You are a normal person.</span>
+                                <div class="progress-container">
+                                    <div class="progress-bar" style="width: 72%;">72%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="result-label">You are a child.</span>
+                                <div class="progress-container">
+                                    <div class="progress-bar" style="width: 5%;">5%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="result-label">You are a baby.</span>
+                                <div class="progress-container">
+                                    <div class="progress-bar" style="width: 2%;">2%</div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                     <br>
                     <div class="action-buttons">
                         <button class="retake-test">Retake Test</button>
-                        <a href="#about" class="learn-more">Learn more about maturity</a>
+                        <a href="#what-is-maturity" class="learn-more">Learn more about maturity</a>
                     </div>
                 `;
                 
