@@ -75,7 +75,7 @@ header .container {
     padding: 15px 20px;
 }
 
-.logo h1 {
+.logo-text {
     font-size: 24px;
     font-weight: 700;
     color: #333;
@@ -213,6 +213,7 @@ main {
     background-color: #f8f9fa;
 }
 
+.about-section h1,
 .about-section h2 {
     text-align: center;
     margin-bottom: 40px;
@@ -526,7 +527,7 @@ main {
     display: block; /* Show when active */
 }
 
-.contact-section h2 {
+.contact-section h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
