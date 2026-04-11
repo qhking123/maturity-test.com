@@ -44,16 +44,50 @@
       }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://maturity-test.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://maturity-test.com/blog/"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Healthy Boundaries and Maturity",
+        "item": "https://maturity-test.com/blog/healthy-boundaries"
+      }]
+    }
+    </script>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <a href="../" class="logo-text">Maturity Test</a>
+                <a href="/" class="logo-text">Maturity Test</a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="../">Home</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="/blog">Maturity Test Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="comprehensive-guide-emotional-maturity">Emotional Maturity Guide</a></li>
+                            <li><a href="science-of-mental-age">The Science of Mental Age</a></li>
+                            <li><a href="maturity-in-relationships">Maturity in Relationships</a></li>
+                            <li><a href="emotional-hijack">Emotional Hijack</a></li>
+                            <li><a href="faking-maturity">Faking Maturity</a></li>
+                            <li><a href="healthy-boundaries">Healthy Boundaries</a></li>
+                            <li><a href="/blog">View All Posts</a></li>
+                        </ul>
+                    </li>
                     <li><a href="../about">About</a></li>
                     <li><a href="../contact">Contact</a></li>
                 </ul>
@@ -69,6 +103,9 @@
     <main>
         <section class="blog-post">
             <div class="container">
+                <div class="breadcrumb">
+                <a href="/">Home</a> &raquo; <a href="/blog">Blog</a> &raquo; <span>Healthy Boundaries</span>
+            </div>
                 <article>
                     <div class="blog-meta">
                         <span class="blog-category">Emotional Intelligence</span>
@@ -129,6 +166,24 @@
                             <p>Understand how your boundary-setting habits reflect your current emotional maturity and receive tips on how to reclaim your independence.</p>
                             <a href="../" class="btn">Take the Test: Discover Your Relationship Maturity Level</a>
                         </div>
+
+                        <div class="related-posts">
+                            <h2>Related Reading</h2>
+                            <div class="related-posts-grid">
+                                <div class="related-card">
+                                    <h4><a href="comprehensive-guide-emotional-maturity">Emotional Maturity Guide</a></h4>
+                                    <p>How boundaries fit into the larger picture of growth.</p>
+                                </div>
+                                <div class="related-card">
+                                    <h4><a href="maturity-in-relationships">Maturity in Relationships</a></h4>
+                                    <p>Using boundaries to protect and nurture your connections.</p>
+                                </div>
+                                <div class="related-card">
+                                    <h4><a href="faking-maturity">Faking Maturity</a></h4>
+                                    <p>Why people who "fake it" often struggle with boundaries.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -137,7 +192,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Maturity-Test.com. All rights reserved.</p>
+            <p>&copy; 2026 Maturity-Test.com. All rights reserved.</p>
         </div>
     </footer>
 </body>
