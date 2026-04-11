@@ -183,6 +183,13 @@ main {
     margin-right: auto;
 }
 
+.subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px; /* 调小间距 */
+    text-align: center;
+}
+
 /* Test Section */
 .test-section {
     padding: 20px 0;
